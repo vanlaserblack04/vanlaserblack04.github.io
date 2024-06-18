@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Slide Label Input</title>
-  </head>
-  <body>
-    <form>
-      <div class="input-container">
-        <input
-          type="text"
-          id="username"
-          class="text-input"
-          autocomplete="off"
-          placeholder="Enter your username"
-          required
-        />
-        <label class="label" for="username">Username</label>
-      </div>
-    </form>
-    <script src="main.js"></script>
-  </body>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">Rz Sultan</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <img class="header_logo" src="images/sidebar_logo.png">
+                    <span class="logo-name">Rz Sultan</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="#">HOME</a></li>
+                    <p>&nbsp;</p>
+                    <li>
+                        <a href="#">OUR VALUES</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="#">Own The Original</a></li>
+                            <li><a href="#">Rz Sultan Design</a></li>
+                            
+                            <li class="more">
+                                <span><a href="#">More</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a href="#">Neumorphism</a></li>
+                                    <li><a href="#">Pre-loader</a></li>
+                                    <li><a href="#">Glassmorphism</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<footer>
+    <div class="bottom-details">
+        <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2024 <a href="#">Roy Zein (Sultan).</a>All rights reserved</span>
+            <span class="policy_terms">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & condition</a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+
 </html>
