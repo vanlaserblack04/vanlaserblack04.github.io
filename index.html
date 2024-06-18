@@ -334,6 +334,27 @@
                 text-align: center;
             }
         }
+
+        .floating-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .floating-btn i {
+            font-size: 30px;
+        }
     </style>
 </head>
 <body>
@@ -381,6 +402,9 @@
             </div>
         </div>
     </footer>
+    <a href="https://wa.me/6282286129283" class="floating-btn" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
     <script>
         // Sidebar open close
         const navLinks = document.querySelector(".nav-links");
